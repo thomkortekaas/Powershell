@@ -1,3 +1,4 @@
+# This will log of any user except for logged on user
 function RemoveSpace([string]$text) {  
     $private:array = $text.Split(" ", `
     [StringSplitOptions]::RemoveEmptyEntries)
